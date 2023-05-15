@@ -1,0 +1,18 @@
+.page {
+  padding: 0;
+  font-family: 'Philosopher', Arial, Helvetica, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
