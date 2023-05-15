@@ -3,3 +3,8 @@
     height: 30px;
     margin: 0 5px;
 }
+
+
+.header__social-iqon:hover {
+    transform: scale(1.3);
+}

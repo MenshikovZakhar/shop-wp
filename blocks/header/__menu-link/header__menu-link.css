@@ -1,0 +1,12 @@
+.header__menu-link {
+    text-decoration: none;
+    color: #616161;
+    margin: 0 10px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.header__menu-link:hover {
+    color: #00c9c8;
+    transform: scale(1.2);
+}
