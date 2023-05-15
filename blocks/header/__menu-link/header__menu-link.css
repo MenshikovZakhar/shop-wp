@@ -10,3 +10,14 @@
     color: #00c9c8;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 1000px) {
+    .header__menu-link {
+        margin: 0 5px;
+        font-size: 15px;
+    }
+
+    .header__menu-link:hover {
+        transform: scale(1.1);
+    }
+}

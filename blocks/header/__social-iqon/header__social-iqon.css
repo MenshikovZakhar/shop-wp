@@ -8,3 +8,17 @@
 .header__social-iqon:hover {
     transform: scale(1.3);
 }
+
+@media screen and (max-width: 860px) {
+    .header__social-iqon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__social-iqon {
+        width: 30px;
+        height: 30px;
+    }
+}
