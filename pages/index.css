@@ -7,6 +7,7 @@
 @import url(../blocks/header/__social-iqon/header__social-iqon.css);
 @import url(../blocks/header/__top/header__top.css);
 @import url(../blocks/header/__top/__top_right/header__top_right.css);
+@import url(../blocks/header/__center/header__center.css);
 
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-horizontal/header__menu-horizontal.css);
