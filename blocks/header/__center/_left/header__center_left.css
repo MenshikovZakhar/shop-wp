@@ -1,3 +1,9 @@
 .header__center_left {
     width: 15%;
 }
+
+@media screen and (max-width: 1000px) {
+    .header__center_left {
+        width: 25%;
+    }
+}
