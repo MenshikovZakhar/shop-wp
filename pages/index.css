@@ -4,11 +4,20 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/header/header.css);
 @import url(../blocks/header/__social-iqon/header__social-iqon.css);
 @import url(../blocks/header/__top/header__top.css);
 @import url(../blocks/header/__top/__top_right/header__top_right.css);
 @import url(../blocks/header/__center/header__center.css);
-
+@import url(../blocks/header/__menu-toggler/header__menu-toggler.css);
+@import url(../blocks/header/__services-links/header__services-links.css);
+@import url(../blocks/header/__center_text/header__center_text.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-horizontal/header__menu-horizontal.css);
 @import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__center_iqon/header__center_iqon.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__center/_center/header__center_center.css);
+@import url(../blocks/header/__center/_left/header__center_left.css);
+@import url(../blocks/header/__center/_right/header__center_right.css);
+@import url(../blocks/header/__center/_title/header__center_title.css);

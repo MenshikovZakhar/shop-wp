@@ -1,0 +1,9 @@
+.fa {
+    color: #00c9c8;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.fa:hover {
+    transform: scale(1.3);
+}
