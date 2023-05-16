@@ -21,3 +21,5 @@
 @import url(../blocks/header/__center/_left/header__center_left.css);
 @import url(../blocks/header/__center/_right/header__center_right.css);
 @import url(../blocks/header/__center/_title/header__center_title.css);
+@import url(../blocks/header/__bottom/header__bottom.css);
+@import url(../blocks/header/__catalog-link/header__catalog-link.css);
