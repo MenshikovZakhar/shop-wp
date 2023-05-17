@@ -9,6 +9,16 @@
 
 }
 
+.slider {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fa__position {
+    position: absolute;
+    font-size: 50px;
+}
+
 .slide__img {
     width: 100%;
 }
@@ -17,21 +27,18 @@
     cursor: pointer;
     position: absolute;
     top: 50%;
-    margin-top: -35px;
+    margin-top: 50px;
     width: 0;
     height: 0;
-    border-style: solid;
     z-index: 500;
 }
 
 #arrow-left {
-
     left: 0;
     margin-left: 20px;
 }
 
 #arrow-right {
-
     right: 0;
     margin-right: 20px;
 
