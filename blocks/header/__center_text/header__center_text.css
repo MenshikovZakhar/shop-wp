@@ -9,3 +9,16 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .header__center_text {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header__center_text {
+        font-size: 14px;
+    }
+}

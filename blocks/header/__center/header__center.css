@@ -7,3 +7,15 @@
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
 }
+
+@media screen and (max-width: 850px) {
+    .header__center {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header__center {
+        width: 90%;
+    }
+}

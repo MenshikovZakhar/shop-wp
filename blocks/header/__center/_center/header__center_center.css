@@ -25,3 +25,21 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .header__center_center {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header__center_center {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__center_center {
+        width: 100%;
+    }
+}

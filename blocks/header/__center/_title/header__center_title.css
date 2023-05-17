@@ -4,3 +4,25 @@
     color: #616161;
     margin: 0;
 }
+
+@media screen and (max-width: 850px) {
+    .header__center_title {
+        font-size: 18px;
+        align-items: center;
+        display: flex;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header__center_title {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .header__center_title {
+        width: 50%;
+    }
+}

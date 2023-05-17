@@ -7,3 +7,9 @@
 .fa:hover {
     transform: scale(1.3);
 }
+
+@media screen and (max-width: 680px) {
+    .fa {
+        font-size: 30px;
+    }
+}
