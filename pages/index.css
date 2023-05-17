@@ -25,3 +25,5 @@
 @import url(../blocks/header/__catalog-link/header__catalog-link.css);
 @import url(../blocks/header/__list/__list_menu/header__list_menu.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
+
+@import url(../blocks/slider/slider.css);
