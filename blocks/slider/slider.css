@@ -21,8 +21,21 @@
     justify-content: space-between;
     margin: auto;
     transform: translateY(30%);
-    transform: translateX(50%);
 }
+
+.slider__description {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(30%);
+}
+
 
 .slider {
     width: 100%;
