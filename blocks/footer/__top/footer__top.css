@@ -1,0 +1,7 @@
+.footer__top {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
