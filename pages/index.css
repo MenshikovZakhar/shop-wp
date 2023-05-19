@@ -35,3 +35,7 @@
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__contacts-iqon/footer__contacts-iqon.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
