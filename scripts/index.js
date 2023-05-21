@@ -44,20 +44,41 @@ startSlide();
 
 $('.slick-example').slick({
     infinite: true,
-    dots: true,
+    dots: false,
     slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
+
         {
-            breakpoint: 768,
+            breakpoint: 1380,
+            settings: {
+                slidesToShow: 5,
+            }
+        },
+
+        {
+            breakpoint: 1100,
             settings: {
                 slidesToShow: 4,
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+
+        {
+            breakpoint: 700,
             settings: {
                 slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
             }
         }
     ]
