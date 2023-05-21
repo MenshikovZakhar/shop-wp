@@ -31,6 +31,17 @@
 @import url(../blocks/slider/__text/slider__text.css);
 @import url(../blocks/slider/__link/slider__link.css);
 
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__button/catalog__button.css);
+@import url(../blocks/catalog/__characteristic/catalog__characteristic.css);
+@import url(../blocks/catalog/__group/catalog__group.css);
+@import url(../blocks/catalog/__image/catalog__image.css);
+@import url(../blocks/catalog/__list/catalog__list.css);
+@import url(../blocks/catalog/__name/catalog__name.css);
+@import url(../blocks/catalog/__price/catalog__price.css);
+@import url(../blocks/catalog/__product/catalog__product.css);
+@import url(../blocks/catalog/__title/catalog__title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__list/footer__list.css);
