@@ -44,85 +44,42 @@ startSlide();
 
 $(function () {
 
-    $('.slick').slick({
-        infinite: true,
-        dots: false,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        responsive: [
-
-            {
-                breakpoint: 1380,
-                settings: {
-                    slidesToShow: 5,
-                }
-            },
-
-            {
-                breakpoint: 1100,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 900,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-
-            {
-                breakpoint: 700,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    });
-
-
 
     $('.slick-example').slick({
         infinite: true,
         dots: false,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
 
             {
                 breakpoint: 1380,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                 }
             },
 
             {
                 breakpoint: 1100,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 900,
+                breakpoint: 830,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
 
             {
-                breakpoint: 700,
+                breakpoint: 740,
                 settings: {
                     slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 570,
                 settings: {
                     slidesToShow: 1,
                 }
