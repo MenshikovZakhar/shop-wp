@@ -1,0 +1,6 @@
+.product__description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
