@@ -42,6 +42,32 @@
 @import url(../blocks/catalog/__product/catalog__product.css);
 @import url(../blocks/catalog/__title/catalog__title.css);
 
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__about/product__about.css);
+@import url(../blocks/product/__availability/product__availability.css);
+@import url(../blocks/product/__basket-text/product__basket-text.css);
+@import url(../blocks/product/__basket/product__basket.css);
+@import url(../blocks/product/__buy/product__buy.css);
+@import url(../blocks/product/__description/product__description.css);
+@import url(../blocks/product/__features-links/product__features-links.css);
+@import url(../blocks/product/__features-text/product__features-text.css);
+@import url(../blocks/product/__features-title/product__features-title.css);
+@import url(../blocks/product/__features/product__features.css);
+@import url(../blocks/product/__image-like/product__image-like.css);
+@import url(../blocks/product/__image/catalog__image.css);
+@import url(../blocks/product/__images/product__images.css);
+@import url(../blocks/product/__like/product__like.css);
+@import url(../blocks/product/__images/_max/product__images_max.css);
+@import url(../blocks/product/__images/_min/product__images_min.css);
+@import url(../blocks/product/__panel/product__panel.css);
+@import url(../blocks/product/__list/product__list.css);
+@import url(../blocks/product/__price/product__price.css);
+@import url(../blocks/product/__text/product__text.css);
+@import url(../blocks/product/__title/product__title.css);
+@import url(../blocks/product/__top-about/product__top-about.css);
+@import url(../blocks/product/__top/product__top.css);
+
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__list/footer__list.css);
