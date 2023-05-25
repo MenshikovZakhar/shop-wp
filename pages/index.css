@@ -68,6 +68,7 @@
 @import url(../blocks/product/__top/product__top.css);
 @import url(../blocks/product/__image/__image_max/product__image_max.css);
 @import url(../blocks/product/__image/__image_min/product__image_min.css);
+@import url(../blocks/product/__features-title/product__features-title.css);
 
 
 @import url(../blocks/footer/footer.css);

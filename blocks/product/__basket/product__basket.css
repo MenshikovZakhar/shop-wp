@@ -1,4 +1,18 @@
 .product__basket {
     width: 150px;
-    background-color: #ffffff;
+    background-color: #00c9c8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+
+.shopping-basket {
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+    align-self: center;
+    color: #ffffff;
 }
