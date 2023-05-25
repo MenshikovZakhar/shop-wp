@@ -5,3 +5,10 @@
     justify-content: space-between;
     border-bottom: solid 1px #f4f4f4;
 }
+
+
+@media screen and (max-width: 430px) {
+    .product__features-links {
+        width: 100%;
+    }
+}

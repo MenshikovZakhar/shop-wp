@@ -5,3 +5,22 @@
     margin: 0 auto;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 860px) {
+    .product__images {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .product__images {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .product__images {
+        width: 90%;
+    }
+}
