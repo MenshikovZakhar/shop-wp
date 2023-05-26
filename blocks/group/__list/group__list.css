@@ -1,0 +1,8 @@
+.group__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 30px;
+}

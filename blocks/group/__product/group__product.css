@@ -1,0 +1,7 @@
+.group__product {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e8e8e8;
+    margin: 0 10px;
+}
