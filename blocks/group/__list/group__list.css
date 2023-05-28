@@ -1,11 +1,12 @@
 .group__list {
-    width: 100%;
+    max-width: 1200px;
     list-style: none;
     padding: 0;
     margin: 0 auto 30px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
+    height: 100%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -14,8 +15,28 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .group__list {
         grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .group__list {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .group__list {
+        display: flex;
+        flex-direction: column;
     }
 }

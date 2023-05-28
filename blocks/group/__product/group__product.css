@@ -4,4 +4,11 @@
     background-color: rgb(255, 255, 255);
     border: 1px solid #e8e8e8;
     margin: 0 10px;
+    width: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .group__product {
+        width: 300px;
+    }
 }
