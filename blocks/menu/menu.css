@@ -43,6 +43,22 @@
     animation: showBlocks 1s linear forwards;
 }
 
+
+.popup__close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/close.svg);
+    background-color: unset;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
 @media (max-width: 680px) {
     .menu {
         width: 200px;
