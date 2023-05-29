@@ -1,0 +1,49 @@
+.menu {
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    list-style: none;
+    overflow: hidden;
+    transition: 5s ease;
+    display: block;
+    animation: showBlock 1s linear forwards;
+    background: rgba(92, 135, 189, .8);
+    padding: 0;
+    width: 300px;
+    opacity: 0.7;
+}
+
+@keyframes showBlock {
+    0% {
+        opacity: 0;
+        right: -150px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0px;
+    }
+}
+
+@keyframes showBlocks {
+    0% {
+        opacity: 1;
+        right: 0px;
+    }
+
+    100% {
+        opacity: 0;
+        right: -150px;
+    }
+}
+
+.hide {
+
+    animation: showBlocks 1s linear forwards;
+}
+
+@media (max-width: 680px) {
+    .menu {
+        width: 200px;
+    }
+}

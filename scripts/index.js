@@ -34,8 +34,6 @@ arrowLeft.addEventListener("click", function () {
     slideLeft();
 });
 
-
-
 arrowRight.addEventListener("click", function () {
     if (current === sliderImages.length - 1) {
         current = -1;
@@ -45,8 +43,6 @@ arrowRight.addEventListener("click", function () {
 startSlide();
 
 $(function () {
-
-
     $('.slick-example').slick({
         infinite: true,
         dots: false,
@@ -89,3 +85,11 @@ $(function () {
         ]
     })
 })
+
+
+//функция открытия меню
+const handleClick = function () {
+    const divs = document.getElementById("menu")
+    divs.classList.toggle("hide")
+}
+document.getElementById("menu-toggle").addEventListener("click", handleClick)
