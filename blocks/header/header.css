@@ -1,3 +1,7 @@
+.header {
+    position: relative;
+}
+
 .fa {
     color: #00c9c8;
     font-size: 35px;
