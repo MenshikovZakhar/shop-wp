@@ -3,12 +3,39 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border: 1px solid #e8e8e8;
-    margin: 0 10px;
+    margin: 0 auto;
     width: 250px;
 }
 
-@media screen and (max-width: 900px) {
+
+
+@media screen and (max-width: 930px) {
     .group__product {
-        width: 300px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .group__product {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .group__product {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .group__product {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .group__product {
+        width: 260px;
     }
 }

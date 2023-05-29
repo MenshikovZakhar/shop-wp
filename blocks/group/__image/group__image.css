@@ -2,3 +2,21 @@
     width: 200px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 930px) {
+    .group__image {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .group__image {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .group__image {
+        width: 150px;
+    }
+}
