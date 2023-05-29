@@ -34,19 +34,6 @@
     margin-top: 8px;
 }
 
-#menu-toggle:checked+.header__menu-toggler .header-button::before {
-    margin-top: 0px;
-    transform: rotate(405deg);
-}
-
-#menu-toggle:checked+.header__menu-toggler .header-button {
-    background: rgba(255, 255, 255, 0);
-}
-
-#menu-toggle:checked+.header__menu-toggler .header-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
-}
 
 
 
