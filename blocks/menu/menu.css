@@ -1,6 +1,6 @@
 .menu {
-    position: absolute;
-    top: 50px;
+    position: fixed;
+    top: 0px;
     right: 0px;
     list-style: none;
     overflow: hidden;
@@ -11,11 +11,12 @@
     padding: 0;
     width: 300px;
     z-index: -1200;
+    height: 100%;
 }
 
 @keyframes showBlock {
     0% {
-        right: -150px;
+        right: -350px;
         z-index: 1200;
     }
 
