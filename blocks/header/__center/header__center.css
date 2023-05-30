@@ -8,6 +8,12 @@
     border-bottom: 1px solid #f0f0f0;
 }
 
+@media screen and (max-width: 1000px) {
+    .header__center {
+        border-bottom: none;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .header__center {
         flex-direction: column;
