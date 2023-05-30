@@ -5,10 +5,10 @@
     list-style: none;
     overflow: hidden;
     transition: 5s ease;
-    display: block;
-    animation: showBlock 1s linear forwards;
+    display: none;
+    animation: showBlock 0.3s linear forwards;
     background: #ffffff;
-    padding: 0;
+    padding: 60px 0 0 20px;
     width: 300px;
     z-index: -1200;
     height: 100%;
@@ -42,7 +42,7 @@
 }
 
 .hide {
-    animation: showBlocks 1s linear forwards;
+    animation: showBlocks 0.3s linear forwards;
 }
 
 
@@ -61,8 +61,15 @@
     border: none;
 }
 
+@media (max-width: 1000px) {
+    .menu {
+        display: block;
+    }
+}
+
+
 @media (max-width: 680px) {
     .menu {
-        width: 200px;
+        width: 250px;
     }
 }
