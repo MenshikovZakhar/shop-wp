@@ -49,8 +49,6 @@
 @import url(./blocks/catalog/__product/catalog__product.css);
 @import url(./blocks/catalog/__title/catalog__title.css);
 
-
-
 @import url(./blocks/product/product.css);
 @import url(./blocks/product/__about/product__about.css);
 @import url(./blocks/product/__availability/product__availability.css);
@@ -63,7 +61,6 @@
 @import url(./blocks/product/__features-title/product__features-title.css);
 @import url(./blocks/product/__features/product__features.css);
 @import url(./blocks/product/__image-like/product__image-like.css);
-
 @import url(./blocks/product/__images/product__images.css);
 @import url(./blocks/product/__like/product__like.css);
 @import url(./blocks/product/__images/_max/product__images_max.css);
@@ -78,7 +75,6 @@
 @import url(./blocks/product/__image/__image_max/product__image_max.css);
 @import url(./blocks/product/__image/__image_min/product__image_min.css);
 @import url(./blocks/product/__features-title/product__features-title.css);
-
 
 @import url(./blocks/group/__button/group__button.css);
 @import url(./blocks/group/__characteristic/group__characteristic.css);
