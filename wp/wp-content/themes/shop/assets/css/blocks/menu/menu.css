@@ -1,0 +1,76 @@
+.menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    list-style: none;
+    overflow: hidden;
+    transition: 5s ease;
+    display: none;
+    animation: showBlock 0.3s linear forwards;
+    background: #ffffff;
+    padding: 60px 0 0 20px;
+    width: 300px;
+    z-index: -1200;
+    height: 100%;
+    box-shadow: 0 0 35px -5px #e8e8e8;
+}
+
+@keyframes showBlock {
+    0% {
+        right: -350px;
+        z-index: 1200;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0px;
+        z-index: 1200;
+    }
+}
+
+@keyframes showBlocks {
+    0% {
+        z-index: 1200;
+        opacity: 1;
+        right: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        right: -350px;
+        z-index: -1200;
+    }
+}
+
+.hide {
+    animation: showBlocks 0.3s linear forwards;
+}
+
+
+.popup__close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../../images/close.svg);
+    background-color: unset;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        display: block;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .menu {
+        width: 250px;
+    }
+}

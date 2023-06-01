@@ -1,0 +1,6 @@
+.product__image_max {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}

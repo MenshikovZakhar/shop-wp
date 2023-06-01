@@ -1,0 +1,19 @@
+.header__social-iqon {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .header__social-iqon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__social-iqon {
+        width: 25px;
+        height: 25px;
+    }
+}

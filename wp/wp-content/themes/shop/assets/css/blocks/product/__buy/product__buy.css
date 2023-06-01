@@ -1,0 +1,12 @@
+.product__buy {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width: 860px) {
+    .product__buy {
+        justify-content: center;
+        margin: 20px 0 0;
+    }
+}

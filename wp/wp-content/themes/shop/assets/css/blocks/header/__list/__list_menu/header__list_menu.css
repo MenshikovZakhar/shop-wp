@@ -1,0 +1,27 @@
+.header__list_menu {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__list_menu {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__list_menu {
+        flex-direction: row;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        width: 50%;
+    }
+}

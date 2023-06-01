@@ -1,0 +1,12 @@
+.header__catalog-link {
+    text-decoration: none;
+    color: #161616;
+    margin: 0 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.header__catalog-link:hover {
+    color: #00c9c8;
+    transform: scale(1.2);
+}

@@ -1,0 +1,16 @@
+.product__title {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 490px) {
+    .product__title {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .product__title {
+        font-size: 25px;
+    }
+}

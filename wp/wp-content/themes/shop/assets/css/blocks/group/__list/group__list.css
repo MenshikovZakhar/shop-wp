@@ -1,0 +1,31 @@
+.group__list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .group__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .group__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .group__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.slider__title {
+    font-size: 45px;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .slider__title {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .slider__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .slider__title {
+        font-size: 22px;
+    }
+}
