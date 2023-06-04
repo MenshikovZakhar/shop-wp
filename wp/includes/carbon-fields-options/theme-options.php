@@ -21,4 +21,13 @@ Container::make( 'theme_options', 'Настройки сайта' )
     Field::make( 'text', 'site_instagram_url', 'Instagram' ),
     Field::make( 'text', 'site_telegram_url', 'Telegram' ),
     Field::make( 'text', 'site_vk_url', 'VK' ),
+  ])
+
+  ->add_tab( 'Наши приемущества (шапка)', [
+    Field::make( 'text', 'benefit_description_1', 'Приемущество №1' ),
+    Field::make( 'image', 'benefit_image_1', 'Приемущество №1' ),
+    Field::make( 'text', 'benefit_description_2', 'Приемущество №2' ),
+    Field::make( 'image', 'benefit_image_2', 'Приемущество №2' ),
+    Field::make( 'text', 'benefit_description_3', 'Приемущество №3' ),
+    Field::make( 'image', 'benefit_image_3', 'Приемущество №3' ),   
   ]);

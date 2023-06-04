@@ -65,16 +65,16 @@
       <div class="header__center_center">
         <ul class="header__list">
           <li class="header__services-links">
-            <img class='header__center_iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_2.png" alt='logo' />
-            <p class="header__center_text">Бесплатная доставка от 3000 руб.</p>
+            <img class='header__center_iqon' src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'benefit_image_1' )); ?>" />
+            <p class="header__center_text"><?php echo $GLOBALS['shop']['benefit_description_1']; ?></p>
           </li>
           <li class="header__services-links">
-            <img class='header__center_iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_1.png" alt='logo' />
-            <p class="header__center_text">Удобные способ оплаты </p>
+          <img class='header__center_iqon' src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'benefit_image_2' )); ?>" />
+            <p class="header__center_text"><?php echo $GLOBALS['shop']['benefit_description_2']; ?></p>
           </li>
           <li class="header__services-links">
-            <img class='header__center_iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_3.png" alt='logo' />
-            <p class="header__center_text">Гарантия на все товары </p>
+          <img class='header__center_iqon' src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'benefit_image_3' )); ?>" />
+            <p class="header__center_text"><?php echo $GLOBALS['shop']['benefit_description_3']; ?></p>
           </li>
         </ul>
       </div>

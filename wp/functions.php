@@ -65,6 +65,13 @@ function create_global_variable() {
     'instagram_url' => carbon_get_theme_option( 'site_instagram_url' ),
     'telegram_url' => carbon_get_theme_option( 'site_telegram_url' ),
     'vk_url' => carbon_get_theme_option( 'site_vk_url' ),
+
+    'benefit_description_1' => carbon_get_theme_option( 'benefit_description_1' ),
+    'benefit_image_1' => carbon_get_theme_option( 'benefit_image_1' ),
+    'benefit_description_2' => carbon_get_theme_option( 'benefit_description_2' ),
+    'benefit_image_2' => carbon_get_theme_option( 'benefit_image_2' ),
+    'benefit_description_3' => carbon_get_theme_option( 'benefit_description_3' ),
+    'benefit_image_3' => carbon_get_theme_option( 'benefit_image_3' ),
   ];
 }
 
