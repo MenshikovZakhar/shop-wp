@@ -49,11 +49,13 @@ function create_global_variable() {
   global $shop;
   $shop = [
     'phone' => carbon_get_theme_option( 'site_phone' ),
+    'phone_digits' => carbon_get_theme_option( 'site_phone_digits' ),
     'address' => carbon_get_theme_option( 'site_address' ),
     'email' => carbon_get_theme_option( 'site_email' ),
+    'whatsapp_url' => carbon_get_theme_option( 'site_whatsapp_url' ),
+    'instagram_url' => carbon_get_theme_option( 'site_instagram_url' ),
+    'telegram_url' => carbon_get_theme_option( 'site_telegram_url' ),
     'vk_url' => carbon_get_theme_option( 'site_vk_url' ),
-    'fb_url' => carbon_get_theme_option( 'site_fb_url' ),
-    'inst_url' => carbon_get_theme_option( 'site_inst_url' ),
   ];
 }
 
@@ -63,6 +65,30 @@ function change_logo_class( $html ) {
     $html = str_replace( 'custom-logo', 'header__logo', $html );
     return $html;
 }
+
+
+
+//Меню сайта шапка
+add_action( 'after_setup_theme', 'theme_support' );
+function theme_support() {
+  register_nav_menu( 'header', 'Меню сайта шапка' );
+}
+
+function add_menu_link_class( $atts, $item, $args ) {
+  if (property_exists($args, 'link_class')) {
+    $atts['class'] = $args->link_class;
+  }
+  return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+function add_menu_list_item_class($classes, $item, $args) {
+  if (property_exists($args, 'list_item_class')) {
+      $classes[] = $args->list_item_class;
+  }
+  return $classes;
+}
+add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 
 
 

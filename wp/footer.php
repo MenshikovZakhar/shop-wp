@@ -56,27 +56,27 @@
     <div class="footer__bottom">
       <ul class='header__list'>
         <li class='header__social-item'>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="tel:<?php echo $GLOBALS['shop']['phone_digits']; ?>">
             <img class='header__social-iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg" alt='logo' />
           </a>
         </li>
         <li class='header__social-item'>
-          <a href="#">
+          <a href="<?php echo $GLOBALS['shop']['whatsapp_url']; ?>" target="_blank" rel="noreferrer">
             <img class='header__social-iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp.svg" alt='logo' />
           </a>
         </li>
         <li class='header__social-item'>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="<?php echo $GLOBALS['shop']['instagram_url']; ?>" target="_blank" rel="noreferrer">
             <img class='header__social-iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.svg" alt='logo' />
           </a>
         </li>
         <li class='header__social-item'>
-          <a href="#" target="_blank" rel="noreferrer">
+        <a href="<?php echo $GLOBALS['shop']['telegram_url']; ?>" target="_blank" rel="noreferrer">
             <img class='header__social-iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/telegram.svg" alt='logo' />
           </a>
         </li>
         <li class='header__social-item'>
-          <a href="#" target="_blank" rel="noreferrer">
+        <a href="<?php echo $GLOBALS['shop']['vk_url']; ?>" target="_blank" rel="noreferrer">
             <img class='header__social-iqon' src="<?php echo get_template_directory_uri(); ?>/assets/images/vk.svg" alt='logo' />
           </a>
         </li>
