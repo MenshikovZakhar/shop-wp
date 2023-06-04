@@ -1,0 +1,26 @@
+.slider__text {
+    font-size: 18px;
+    color: white;
+    margin: 20px 0;
+    width: 70%;
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 830px) {
+    .slider__text {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .slider__text {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .slider__text {
+        margin: 5px 0;
+    }
+}
