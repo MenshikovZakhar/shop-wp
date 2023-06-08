@@ -135,7 +135,7 @@ function register_post_types() {
     'menu_icon'          => 'dashicons-cart',
     'public'             => true,
     'menu_position'      => 5,
-    'supports'           => ['title', 'editor', 'thumbnail', 'excerpt'],
+    'supports'           => ['title','editor','editor', 'thumbnail', 'excerpt'],
     'has_archive'        => true,
     'rewrite'            => ['slug' => 'products']
    ] );
