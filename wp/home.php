@@ -74,7 +74,7 @@ if( $myposts ){
     
     <ul class="catalog__list slick-example" >
   
-    <?php query_posts('cat=6');
+    <?php
     while ( $catalog_products_query->have_posts() ) : $catalog_products_query->the_post(); ?>
         
     <?php echo get_template_part('product-content'); ?>
@@ -176,7 +176,7 @@ if( $myposts ){
 
       $catalog_products_args = [
         'post_type' => 'product',
-        'post__in' => $catalog_products_ids,
+       
 
         'tax_query' => [
           [
