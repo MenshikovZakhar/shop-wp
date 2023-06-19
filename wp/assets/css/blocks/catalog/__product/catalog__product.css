@@ -5,3 +5,8 @@
     border: 1px solid #e8e8e8;
     margin: 0 10px;
 }
+
+.catalog__link {
+    text-decoration: none;
+    color: #000;
+}

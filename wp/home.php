@@ -83,7 +83,7 @@ if( $myposts ){
 
     <?php endif; ?>
   </ul>
-        <a class="slider__link" href="group.html" target="_blank" rel="noreferrer">
+        <a class="slider__link" href="<?php echo get_permalink(31); ?>" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>
       </div>
@@ -123,7 +123,7 @@ if( $myposts ){
 
     <?php endif; ?>
   </ul>
-        <a class="slider__link" href="group.html" target="_blank" rel="noreferrer">
+        <a class="slider__link" href="<?php echo get_permalink(33); ?>" target="_blank" rel="noreferrer" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>
       </div>
@@ -161,7 +161,7 @@ if( $myposts ){
 
     <?php endif; ?>
   </ul>
-        <a class="slider__link" href="group.html" target="_blank" rel="noreferrer">
+        <a class="slider__link" href="<?php echo get_permalink(35); ?>" target="_blank" rel="noreferrer" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>
       </div>
@@ -199,7 +199,7 @@ if( $myposts ){
 
     <?php endif; ?>
   </ul>
-        <a class="slider__link" href="group.html" target="_blank" rel="noreferrer">
+        <a class="slider__link" href="<?php echo get_permalink(37); ?>" target="_blank" rel="noreferrer" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>
       </div>
@@ -237,7 +237,7 @@ if( $myposts ){
 
     <?php endif; ?>
   </ul>
-        <a class="slider__link" href="group.html" target="_blank" rel="noreferrer">
+        <a class="slider__link" href="<?php echo get_permalink(39); ?>" target="_blank" rel="noreferrer" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>
 </div>

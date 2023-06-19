@@ -2,3 +2,9 @@
     width: 200px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 900px) {
+    .catalog__image {
+        width: 180px;
+    }
+}

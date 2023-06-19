@@ -29,7 +29,7 @@ $catalog_products_ids = wp_list_pluck($catalog_products, 'id');
           [
             'taxonomy' => 'product-categories',
             'field'    => 'term_id',
-            'terms'    => [ 5, 6 ],
+            'terms'    => [ 5, 6, 7, 8, 9 ],
           ]
         ],
     ) );

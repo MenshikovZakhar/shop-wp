@@ -5,19 +5,16 @@
 
 ?>
 
-
+<a  class="catalog__link" href="<?php the_permalink(); ?>">
 <li class="group__product">
                         <img class="group__image" src="<?php echo $product_img_src; ?>" />
                         <div class="group__characteristic">
                             <p class="group__name"><?php the_title(); ?></p>
                             <p class="group__price"><?php echo $product_price; ?></p>
                         </div>
-                        <a class="slider__link" href="product.html" target="_blank" rel="noreferrer">
                             <div class="group__button">Подробнее</div>
-                        </a>
-
-                    </li>
-
+</li>
+</a>
          
 
 
