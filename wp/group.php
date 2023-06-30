@@ -12,7 +12,7 @@ Template Name: Group
     
     <section class="group">
   <div class="group__group">
-    <h3 class="group__title"><?php the_title();	?></h3>
+    <h3 id="slide" class="group__title"><?php the_title();	?></h3>
     <?php
 
 

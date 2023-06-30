@@ -25,10 +25,10 @@
     <main class="content">
         <section class="product">
         <?php if ( have_posts() ) : ?>
-            <div class="product__description js-product" data-product-name="<?php the_title(); ?>" data-product-price="<?php echo carbon_get_post_meta($product_id, 'product_price'); ?>">
+            <div class="product__description js-product" data-product-name="<?php the_title(); ?>" data-product-price="<?php echo carbon_get_post_meta($product_id, 'product_price'); ?>" data-product-src="<?php echo get_the_post_thumbnail_url($product_id, 'product'); ?>">
                 <div class="product__images">
                     <div class="product__images_min">
-                    <img class="product__image_min" src="<?php echo $thumbnail_url_1; ?>"/>
+                    <img id="slide" class="product__image_min" src="<?php echo $thumbnail_url_1; ?>"/>
                     <img class="product__image_min" src="<?php echo $thumbnail_url_2; ?>"/>
                     <img class="product__image_min" src="<?php echo $thumbnail_url_3; ?>"/>
                     </div>
@@ -52,8 +52,8 @@
                     <div class="product__buy">
                         <span class="product__price js-product-price-value product__price-value"><?php echo carbon_get_post_meta($product_id, 'product_price'); ?> руб.</span>
                         <button class="product__basket js-btn-add-to-cart" type="button">
-                            <i class='fas fa fa-shopping-cart'></i>
-                            <div class="shopping-basket"> В корзину</div>
+                            <i class='fas fa fa-shopping-cart js-btn-add-to-cart'></i>
+                            <div class="shopping-basket js-btn-add-to-cart"> В корзину</div>
                         </button>
                     </div>
                     <div class="product__features">

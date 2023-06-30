@@ -29,6 +29,10 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/js/slick.js', array(), 'null', true );
     wp_enqueue_script( 'index', get_template_directory_uri() . '/assets/js/index.js', array(), 'null', true );
 
+    wp_localize_script('index', 'WPJS', [
+      'siteUrl' => get_template_directory_uri(),
+      'ajaxUrl' => admin_url('admin-ajax.php'),
+    ]);
 });
 
 add_theme_support('post-thumbnails');
@@ -199,4 +203,55 @@ function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 	}
 
 	return $data;
+}
+
+
+add_action('wp_ajax_send_email', 'shop_send_email');
+add_action('wp_ajax_nopriv_send_email', 'shop_send_email');
+function shop_send_email() {
+  $method = $_SERVER['REQUEST_METHOD'];
+
+  if ($method !== 'POST') {
+    exit();
+  }
+
+  $admin_email = 'shop@shop.ru';
+  $form_subject = 'Заявка с сайта shop';
+  $message = '';
+  
+  $color_counter = 1;
+  
+  foreach ($_POST as $key => $value) {
+    if ($value === '') {
+      continue;
+    }
+    $color = $color_counter % 2 === 0 ? '#fff' : '#f8f8f8';
+    $message .= "
+      <tr style='background-color: $color;'>
+        <td style='padding: 10px; border: 1px solid #e9e9e9;'>$key</td>
+        <td style='padding: 10px; border: 1px solid #e9e9e9;'>$value</td>
+      </tr>";
+  
+    $color_counter++;
+  }
+  
+  function adopt($text) {
+    return '=?utf-8?B?'.base64_encode($text).'?=';
+  }
+
+
+  $message = "<table style='width: 100%;'>$message</table>";
+  
+  $headers  = "MIME-Version: 1.0\r\n"; 
+  $headers .= "Content-type: text/html; charset=utf-8\r\n";
+  $headers .= "From:" . adopt($form_subject) . " <$admin_email>\r\n";
+  
+  $success_send = wp_mail($admin_email, adopt($form_subject), $message, $headers);
+  
+  if ($success_send) {
+    echo 'success';
+  } else {
+    echo 'error';
+  }
+  wp_die();
 }

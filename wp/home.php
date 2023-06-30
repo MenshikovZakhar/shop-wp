@@ -22,7 +22,7 @@ if( $myposts ){
 		setup_postdata( $post );
 		?>
           
-          <div class="slide ">
+          <div class="slide" id="slide">
             <?php the_post_thumbnail(
                 array (1920, 600),
                 array (
@@ -232,11 +232,11 @@ if( $myposts ){
     <?php while ( $catalog_products_query->have_posts() ) : $catalog_products_query->the_post(); ?>
         
     <?php echo get_template_part('product-content'); ?>
-
+    </ul>
     <?php endwhile; ?>
 
     <?php endif; ?>
-  </ul>
+
         <a class="slider__link" href="<?php echo get_permalink(39); ?>" target="_blank" rel="noreferrer" target="_blank" rel="noreferrer">
           <div class="slider__link_text">Смотреть все</div>
         </a>

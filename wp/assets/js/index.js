@@ -187,6 +187,7 @@ document.getElementById("menu-close").addEventListener("click", closeClick)
         return;
     }
     const cart = JSON.parse(localStorage.getItem('cart')) || {};
+    const cartItemstopCounterDOMElement = document.querySelector('.js-cart-total-count-items-top');
     const cartItemsCounterDOMElement = document.querySelector('.js-cart-total-count-items');
     const cartTotalPriceDOMElement = document.querySelector('.js-cart-total-price');
     const cartTotalPriceInputDOMElement = document.querySelector('.js-cart-total-price-input');
@@ -259,9 +260,14 @@ document.getElementById("menu-close").addEventListener("click", closeClick)
             return acc + quantity;
         }, 0);
 
-        if (cartItemsCounterDOMElement) {
+
+
+        if (cartItemsCounterDOMElement && cartItemstopCounterDOMElement) {
             cartItemsCounterDOMElement.textContent = totalQuantity;
+            cartItemstopCounterDOMElement.textContent = totalQuantity;
         }
+
+
 
         return totalQuantity;
     };

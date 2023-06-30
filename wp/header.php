@@ -89,10 +89,9 @@
               <i class="fa fa-heart" aria-hidden="true"></i>
             </a>
           </li>
-          <li class='header__menu-item'>
-            <a href="#" target="_blank" rel="noreferrer">
+          <li class='header__menu-item' data-popup="popup-order">
+          <span class="cart-btn__counter-top js-cart-total-count-items-top">0</span>
               <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-            </a>
           </li>
           <li class='header__menu-item'>
             <input id="menu-toggle" type="checkbox" />
